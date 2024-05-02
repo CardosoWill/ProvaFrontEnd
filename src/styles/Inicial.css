@@ -1,0 +1,42 @@
+
+    
+    .header-inicio {
+        display: grid;
+        justify-items: center;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0 20px;
+      }
+  
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+  
+      .descricao {
+        margin-bottom: 20px;
+      }
+      .azul {
+      padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        background-color: #0d6efd;
+        color: white;
+      }
+  
+      .cinza {
+          padding: 10px 20px;
+          margin-right: 10px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 1em;
+        background-color: gray;
+        color: white;
+      }
+  
+  
+  
