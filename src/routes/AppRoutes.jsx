@@ -1,16 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Inicial from "../pages/Inicial";
 import Body from "../layout/Body";
-import Restaurante from "../pages/restaurante";
-import Produtos from "../pages/Produtos"
+import Pagina from "../pages/Pag";
+import MuayThai from "../pages/MuayThai";
+import Formulario from "../pages/Formulario";
 
 export default function AppRoutes() {
   return (
     <BrowserRouter> 
       <Routes> 
         <Route path="/" element={<Body />}>
-          <Route path="/" element={<Restaurante />} />
-          <Route path="/produtos" element={<Produtos />} />
+          <Route path="/pagina" element={<Pagina />} />
+          <Route path="/muaythai" element={<MuayThai />} />
+          <Route path="/formulario" element={<Formulario />} />
+
 
         </Route>
       </Routes>

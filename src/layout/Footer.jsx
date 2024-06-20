@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -7,28 +7,21 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <h5>Infos</h5>
-            <p>Cantina: 7h às 13h30 - 14h às 16h30 - 17h às 21h</p>
-            <p>Restaurante: 11h30 às 13h30</p>
+            <h5>Nome</h5>
+            <p>Academia Xtreme Fight Joinville</p>
           </div>
           <div className="col-lg-4 col-md-6">
-            <h5>Links</h5>
+            <h5>Redes Sociais</h5>
             <ul className="list-unstyled" >
-              <li><a href="#!" style={linkStyle}>Link</a></li>
-              <li><a href="#!" style={linkStyle}>Link</a></li>
-              <li><a href="#!" style={linkStyle}>Link</a></li>
-              <li><a href="#!" style={linkStyle}>Link</a></li>
+            <li> <a href="https://www.instagram.com/academiaxtremefight/" style={linkStyle}><FaInstagram/> @academiaxtremefight</a></li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6">
             <h5>Contato</h5>
             <ul className="list-unstyled">
-              <li>Email: Osguridochatgpt@gmail.com</li>
-              <li>Telefone: (47) 4002-8922</li>
-              <li>Endereço: Rua Dos Curiosos, 666</li>
+              <li>Telefone: (47) 9 9614-3383</li>
+              <li>Endereço: R. Jarivatuba, 1267 - Jarivatuba, Joinville - SC, 89230-870, Brasil</li>
               <div>
-                <FaInstagram/>
-                <FaFacebook/>
               </div>
             </ul>
           </div>
@@ -40,7 +33,7 @@ function Footer() {
 
 
 const footerStyle = {
-  backgroundColor: '#ff4500',
+  backgroundColor: 'blue',
   color: '#fff',
   padding: '2rem 0',
 };
