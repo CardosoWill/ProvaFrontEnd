@@ -15,7 +15,7 @@ function MuayThai() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
+        </div> 
         <div style={menuItemStyle}>
           <Card style={cardStyle}>
             <Card.Img variant="top" src={require("../img/kru.jpg")} style={imgStyle} />
